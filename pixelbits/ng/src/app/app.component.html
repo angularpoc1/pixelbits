@@ -1,0 +1,14 @@
+<masterpage>
+<h1>Hello {{name}}</h1>
+    <div>Router1: <router-outlet></router-outlet></div>
+<a href="#" routerLink="one" >Home</a>
+<a href="#" routerLink="two" >Admin</a>
+<a [routerLink]="[{ outlets: { foo: 'modal/3' } }]">open</a>
+<a [routerLink]="[{ outlets: { foo: 'modal/4' } }]">open</a>
+<a [routerLink]="[{ outlets: { foo: null } }]">close</a>
+<a (click)="open()">Open</a>
+<a (click)="close()">Close</a>
+    <div>Router2: <router-outlet name="foo"></router-outlet></div>
+
+    <button (click)="ping()">Ping</button>
+</masterpage>

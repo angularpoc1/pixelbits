@@ -1,0 +1,16 @@
+
+body {
+    margin-top: 0px;
+    color: rgba(27, 31, 35, 0.85);
+    background-image: -webkit-linear-gradient(270deg, rgba(255, 255, 255, 0) 60%, rgb(255, 255, 255)), -webkit-linear-gradient(20deg, rgb(219, 237, 255) 32%, rgb(235, 255, 240));
+    background-image: -webkit-linear-gradient(270deg, rgba(255, 255, 255, 0) 60%, rgb(255, 255, 255)), -webkit-linear-gradient(20deg, rgb(219, 237, 255) 32%, rgb(235, 255, 240));
+    border-bottom: #fff;
+}
+masterpage > site-header > .navbar{
+    background-color: #000000;
+   
+}
+
+masterpage > site-footer > .footer {
+    background-color: #000000;
+}
